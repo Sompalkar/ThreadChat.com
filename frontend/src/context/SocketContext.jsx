@@ -17,7 +17,7 @@ export const SocketContextProvider = ({ children }) => {
   useEffect(() => {
     if (user?._id && !socket) {
       // Only establish a new socket connection if user._id is available and socket is not already set
-      const newSocket = io("https://sociomedia-com.onrender.com", {
+      const newSocket = io("https://threadchat-app-5jde.onrender.com", {
         query: {
           userId: user._id,
         },
