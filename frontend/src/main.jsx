@@ -9,6 +9,7 @@ import { ColorModeScript } from "@chakra-ui/color-mode";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 import { SocketContextProvider } from "./context/SocketContext.jsx";
+import axios from "axios";
 
 const styles = {
   global: (props) => ({
@@ -30,7 +31,7 @@ const colors = {
     dark: "#1e1e1e",
   },
 };
-
+axios.defaults.baseURL = "https://threadchat-app-5jde.onrender.com";
 const theme = extendTheme({ config, styles, colors });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
