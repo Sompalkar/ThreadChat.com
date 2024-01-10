@@ -1,4 +1,4 @@
-    # Thread App Clone
+ # Thread App Clone
 
 Welcome to the Thread App Clone! This application is a clone of a thread-based social media platform with various features such as real-time chat, profile updates, thread creation, image posting, post liking, and the ability to switch between light and dark themes.
 
