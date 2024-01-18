@@ -6,7 +6,7 @@ Welcome to the Thread App Clone! This application is a clone of a thread-based s
 
 ### Real-time Chat
 
-- Engage in real-time conversations with other users.
+- Engage in real-time conversations with other users.   
 - Seamless and instant messaging.
 
 ### Profile Updates
